@@ -4,7 +4,6 @@ import random
 import time
 import var
 
-
 def get_character_location(contours):
     if len(contours) > 0:
         x, y, w, h = boundingRect(contours[0])

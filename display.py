@@ -20,7 +20,7 @@ def puttext():
     img_copy = cv2.line(
         img_copy, (var.value + 20, 30), (var.value + 15, 150), (0, 0, 255), 2
     )
-    display_images("img_copy", img_copy)
+    #display_images("img_copy", img_copy)
 
 
 def display_images(window_name, image):
